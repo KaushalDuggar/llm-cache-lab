@@ -1,0 +1,15 @@
+[project]
+name = "llm-cache-lab"
+version = "0.1.0"
+description = "Learn exact and semantic LLM caching with Ollama + Redis"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=6.3.0",
+    "numpy>=2.5.4",
+    "ollama>=0.6.3",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.4",
+    "redis>=8.1.0",
+    "streamlit>=1.66.0",
+]
